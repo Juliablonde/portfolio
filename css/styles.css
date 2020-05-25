@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 14px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+.wrapper {
+  background-color: #fff;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  height: 1319px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.sidebar .title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 54px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  color: #b9bcc1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sidebar li::before {
+  content: '\2022';
+  color: #ff6e0d;
+  margin-right: 8px;
+}
+
+.my-photo {
+  width: 370px;
+}
+
+.contacts {
+  padding-left: 40px;
+}
+
+/* .contacts__title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+} */
+
+.contacts__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #838992;
+}
+
+.contacts__link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 8px;
+}
+
+/* .tech-skills__title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+  margin-top: 54px;
+} */
+
+.about-me {
+  padding: 107px 90px 108px 90px;
+}
+
+.about-me__container {
+  max-width: 413px;
+}
+
+.text-plane-grey {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects li {
+  font-weight: bold;
+}
+
+.projects li {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.projects b {
+  color: #000000;
+}
+
+.orange {
+  color: #ff7316;
+}
+
+.black {
+  color: #000000;
+}
+
+.text-plane-light-grey {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Work_experience li {
+  margin-left: 15px;
+  max-width: 536px;
+}
